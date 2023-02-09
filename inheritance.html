@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class school{
+            constructor(){
+                this.teacher="radha";
+            }
+            
+        }
+        class student extends school{
+            constructor(name,standerd){
+                super();
+                this.name=name;
+                this.standerd=standerd;
+            }
+        }
+            var s=new student("shahana",10);
+
+            document.write(s.teacher+" "+s.name+" "+s.standerd)
+     
+    </script>
+    
+</body>
+</html>

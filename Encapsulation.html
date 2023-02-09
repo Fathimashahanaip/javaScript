@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class student{
+            constructor(){
+                var name;
+                var mark;
+                
+            }
+            getName(){
+                return this.name;
+            }
+            setName(name){
+                this.name=name;
+            }
+            getMark(){
+                return this.mark;
+            }
+            setMark(mark){
+                this.mark=mark;
+            }
+
+        }
+        var obj1=new student();
+        obj1.setName("shahana")
+        obj1.setMark(99)
+
+        document.write(obj1.getName()+" "+obj1.getMark());
+    </script>
+    <br>
+
+
+<script>
+    class tree{
+        constructor(){
+            var name;
+            var age;
+        }
+        getname(){
+            return this.name;
+
+        }
+        setname(name){
+            this.name=name;
+        }
+        getage(){
+            return this.age;
+        }
+        setage(age){
+            this.age=age;
+
+        }
+    }
+    var tr=new tree();
+    tr.setname("mango")
+    tr.setage(12)
+    document.write(tr.getname()+" "+tr.getage())
+</script>
+    
+</body>
+</html>
